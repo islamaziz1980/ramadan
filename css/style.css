@@ -667,6 +667,8 @@ nav .icon i {
     margin-top: 2rem;
     font-weight: 500;
 }
+
+.group-method .nav-tabs { background: #FFF8F6;    border-radius: 30px 30px 0px 0px;    border: #ffffff 1px solid;}
 .nav-tabs .nav-tabs>li.active>a{
     font-weight: 700;
 }
@@ -676,12 +678,15 @@ nav .icon i {
  .nav-tabs .nav>li>a:focus,
  .nav-tabs .nav>li>a:hover,
  .nav-tabs .nav-tabs>li>a:hover {
-    color: var(--primary);
+    color: #F26530;
+    font-size: 12px;
+    font-weight: bold;
     cursor: pointer;
-    background-color: var(--card_bg);
-    border: 1px solid #ddd;
-    border-bottom-color: #FFF8F6;
-    border-radius: 16px 16px 0 0;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-bottom-color: #ffffff;
+    border-radius: 30px 30px 0 0;
+        margin-top: 2px;
 }
  .nav-tabs>li>a:hover,
  .nav-tabs>li>a:focus,
@@ -701,7 +706,7 @@ nav .icon i {
 
 } */
 .nav-tabs>li>a {
-    padding: 1.5rem 12rem;
+    padding: 1.5rem 11rem;
     color: var(--body_text);
     /* transition: 0.2s all ease-in-out; */
 }
@@ -1000,6 +1005,7 @@ select {
 }
 /****************************************************/
 @media (max-width: 991.98px) {
+  .nav-tabs>li>a {padding: 1.5rem 10rem;}
     .head-bg {height: 375px;}
     .form-group {margin-bottom: 20px;}
     .breakfast_basket {margin-bottom: 2rem;}
@@ -1010,7 +1016,10 @@ select {
 .project-det-bg { width: 100%}
 .pro-action {text-align:center;}
 }
-
+ /***********************************************/
+ @media (max-width: 875px) {
+ .nav-tabs>li>a {padding: 1.5rem 8rem;}
+}
 /************************************************/
 
 @media (max-width: 767.98px) {
@@ -1103,7 +1112,7 @@ select {
     }
 
    .nav-tabs>li>a {
-        padding: 1.5rem 3rem;
+        padding: 1.5rem 7rem;
         font-size: 14px;
     }
     .modal .nav-tabs>li>a {
@@ -1147,7 +1156,12 @@ select {
   .project-tit-top {margin-top: -90px;height: 200px}
   .head-bg h2 { font-size: 22px;}
   .pr-roz {  margin-top: 70px;}
+  .nav-tabs>li>a {
+       padding: 1.5rem 6rem;
+       font-size: 14px;
+   }
 }
+
 /********************************************/
 @media only screen and (max-width: 650px){
   .head-bg {height: 245px;}
@@ -1157,6 +1171,10 @@ select {
     border-bottom: 5.91px solid #685A4D;
 
 }
+.nav-tabs>li>a {
+     padding: 1.5rem 5.6rem;
+     font-size: 14px;
+ }
 }
 
 /********************************************/
@@ -1166,6 +1184,10 @@ select {
 .project-tit-top {
     margin-top: -115px;
 }
+.nav-tabs>li>a {
+     padding: 1.5rem 4.8rem;
+     font-size: 14px;
+ }
 }
 /*******************************************/
 @media only screen and (max-width: 550px){
@@ -1173,6 +1195,10 @@ select {
   .goog-log i { display: block; margin: auto; float: none;}
 .face-log i { display: block; margin: auto; float: none;}
 .breakfast_basket .nav-tabs>li>a{padding: 10px 0px;font-size: 10px;}
+.nav-tabs>li>a {
+     padding: 1.5rem 4rem;
+     font-size: 14px;
+ }
 }
 /********************************************/
 
@@ -1191,6 +1217,10 @@ select {
     background: /* radial-gradient( rgba(134, 119, 107, 0.7), rgba(255, 251, 246, 1)), */url(../images/more-project/project.png) no-repeat top center;
     background-color: #e5e3e3;
     height: auto;}
+    .nav-tabs>li>a {
+         padding: 1.5rem 3.5rem;
+         font-size: 14px;
+     }
 
 }
 /***********************************/
@@ -1205,6 +1235,10 @@ select {
   .project-tit-top {
       margin-top: -184px;
   }
+  .nav-tabs>li>a {
+    padding: 1.5rem 3rem;
+    font-size: 12px;
+}
 }
 /****************************************/
 @media only screen and (max-width: 425px){
@@ -1236,6 +1270,10 @@ select {
 .don-other{width: 107px;}
 .group-method h3 {font-size: 13px;}
 .head-bg img {max-width: 70%;}
+.nav-tabs>li>a {
+  padding: 1.5rem 2.3rem;
+  font-size: 12px;
+}
 }
 
 /******************************/
@@ -1251,6 +1289,10 @@ select {
     }
     .project-tit-top {margin-top: -211px;}
     .head-bg h2 {font-size: 12px;}
+    .nav-tabs>li>a {
+      padding: 1.5rem 1.3rem;
+      font-size: 12px;
+    }
 }
 /**************************************/
 @media only screen and (max-width: 340px)
